@@ -124,6 +124,7 @@ int main()
     scanf("%s",file);
 
     fp = fopen(file,"r");
+    printf("This line is added by sekhar\n");
 
     int n;
     fscanf(fp,"%d",&n);
